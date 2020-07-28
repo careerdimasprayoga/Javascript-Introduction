@@ -8,7 +8,7 @@ function segitiga(num) {
     console.log(str)
   }
 }
-segitiga(5)
+segitiga(10)
 
 
 

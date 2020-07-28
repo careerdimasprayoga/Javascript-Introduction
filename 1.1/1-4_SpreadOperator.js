@@ -21,5 +21,6 @@ let editData = {
  }
 // console.log(editData)
 // B Get data desctructing
-let { address:{street} } = data
-console.log(street)
+let { address:{street,city} } = data
+let { street, city } = data.address
+console.log(city)
