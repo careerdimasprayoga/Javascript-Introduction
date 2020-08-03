@@ -1,5 +1,5 @@
 let fungsi = (nilaiAwal, nilaiAkhir, dataArray) => {
-    if(nilaiAwal >  nilaiAkhir) {
+    if(nilaiAwal > nilaiAkhir) {
         console.log("Nilai akhir harus lebih besar dari nilai awal  !")
     } else {
         if(dataArray.length < 5) {

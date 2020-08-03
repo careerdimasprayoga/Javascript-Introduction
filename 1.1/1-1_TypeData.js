@@ -56,4 +56,10 @@ let skills = [
 ]
 let interestInCoding = true
 
-console.log(skills[2]["skillname"]) 
+console.log(skills[0]["skillname"]) 
+// console.log(skills)
+
+// var fruits = ["Apple", "Banana"];
+skills.forEach(function (item, index, array) {
+    console.log(item["skillname"]);
+});
